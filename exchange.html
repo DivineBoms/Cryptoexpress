@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8562e9c476.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/metismenu.min.css" />
+    <link rel="stylesheet" href="css/simplebar.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+       <!-- Preloader -->
+<div id="preloader">
+  <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+</div>
+<!-- Preloader -->
+ <!-- back to top start -->
+ <div class="progress-wrap">
+  <svg
+    class="progress-circle svg-content"
+    width="100%"
+    height="100%"
+    viewBox="-1 -1 102 102"
+  >
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  </svg>
+</div>
+    <!-- all-section-area Start-->
+    <div class="all-section-area">
+      <!-- Start Header Area -->
+      <div class="header-area">
+        <div class="container-fluid">
+          <div class="header-content-wrapper">
+            <div
+              class="header-content d-flex justify-content-between align-items-center"
+            >
+              <div class="header-left-content d-flex">
+                <div class="responsive-burger-menu d-block d-lg-none">
+                  <span class="top-bar"></span>
+                  <span class="middle-bar"></span>
+                  <span class="bottom-bar"></span>
+                </div>
+
+                <div class="main-logo">
+                  <a href="dashboard.html">
+                    <img src="img2/logo.png" alt="main-logo" />
+                  </a>
+                </div>
+
+                <form class="search-bar d-flex">
+                  <i class="bx bx-search-alt"></i>
+
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </form>
+
+                <div class="option-item for-mobile-devices d-block d-lg-none">
+                  <i class="search-btn fa-solid fa-magnifying-glass"></i>
+                  <i class="close-btn fa-solid fa-x"></i>
+
+                  <div class="search-overlay search-popup">
+                    <div class="search-box">
+                      <form class="search-form">
+                        <input
+                          class="search-input"
+                          name="search"
+                          placeholder="Search"
+                          type="text"
+                        />
+
+                        <button class="search-button" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-right-content d-flex align-items-center">
+                <div class="header-right-option">
+                  <a
+                    href="#"
+                    class="dropdown-item fullscreen-btn"
+                    id="fullscreen-button"
+                  >
+                    <i class="bx bx-fullscreen"></i>
+                  </a>
+                </div>
+
+                <div
+                  class="header-right-option notification-option messenger-option dropdown"
+                >
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="messages-btn">
+                      <i class="bx bx-message-square-dots"></i>
+                      <span class="badge">3</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block">5 New Message</span>
+                      <span class="mark-all-btn d-inline-block">Clear All</span>
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-1.png" alt="user-1" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Alex Dew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-2.png" alt="user-2" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Anne Kew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-3.png" alt="user-3" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Huhon Smith</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-4.png" alt="user-4" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Yelax Spin</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-5.png" alt="user-5" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Steven</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="#" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option notification-option dropdown">
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="notification-btn">
+                      <i class="bx bxs-bell-ring"></i>
+                      <span class="badge">4</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block"
+                        >6 New Notifications</span
+                      >
+                      <span class="mark-all-btn d-inline-block"
+                        >Mark all as read</span
+                      >
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Just sent a new message!</span>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">New customer registered</span>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Apps are ready for update</span>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-hourglass"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Your item is shipped</span>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block"
+                            >Steven commented on your post</span
+                          >
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="inbox.html" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="header-right-option dropdown profile-nav-item pt-0 pb-0"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle avatar d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdown-4"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img2/avatar.png" alt="avatar" />
+                    <div class="d-none d-lg-block d-md-block">
+                      <h3>Max West</h3>
+                      <span>Super Admin</span>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex flex-column align-items-center"
+                    >
+                      <div class="figure mb-3">
+                        <img
+                          src="img2/avatar.png"
+                          class="rounded-circle"
+                          alt="avatar"
+                        />
+                      </div>
+
+                      <div class="info text-center">
+                        <span class="name">Max West</span>
+                        <p class="mb-3 email">
+                          <a href="#"
+                            ><span
+                              class="__cf_email__"
+                              data-cfemail="0b61646365786662676c6a4b636e67676425686466"
+                              >[email&#160;protected]</span
+                            ></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="dropdown-wrap">
+                      <ul class="profile-nav p-0 pt-3">
+                        <li class="nav-item">
+                          <a href="profile.html" class="nav-link">
+                            <i class='bx bxs-user-circle'></i>
+                            <span>Profile</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="inbox.html" class="nav-link">
+                            <i class='bx bx-mail-send'></i>
+                            <span>My Inbox</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="edit.html" class="nav-link">
+                            <i class='bx bx-edit'></i>
+                            <span>Edit Profile</span>
+                          </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="activity.html" class="nav-link">
+                                <i class='bx bx-history'></i>
+                              <span> Activity</span>
+                            </a>
+                          </li>
+                        <li class="nav-item">
+                          <a href="setting.html" class="nav-link">
+                            <i class='bx bxs-cog' ></i>
+                            <span>Settings</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <ul class="profile-nav">
+                        <li class="nav-item">
+                          <a href="login.html" class="nav-link">
+                            <i class="bx bx-log-in-circle"></i>
+                            <span>Logout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option template-option">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    <img src="img2/setting.svg" alt="setting" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Area -->
+
+      <!-- Start Sidebar Menu Area -->
+      <nav class="sidebar-menu">
+        <ul
+          class="list-group flex-column d-inline-block first-menu"
+          data-simplebar
+        >
+          <li class="list-group-item main-grid active">
+            <a
+              href="dashboard.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Trade"
+            >
+              <i class="bx bxs-dashboard"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a
+              href="exchange.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Exchange"
+            >
+              <i class="bx bx-transfer"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="deposit.html" class="icon"   data-toggle="tooltip"
+            data-placement="right"
+            title="Deposit">
+              <i class="bx bx-money"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="withdraw.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Withdraw">
+              <i class="bx bxs-wallet"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="setting.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Setting">
+              <i class="bx bxs-cog"></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- End Sidebar Menu Area -->
+      <!-- Start Main Content Area -->
+      <main class="main-content-wrap">
+        <section class="ticker">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+               <!-- ticker -->
+<div class="cryptohopper-web-widget" data-id="2" data-text_color="#ffffff" data-background_color="#1d2330" data-theme="custom" data-realtime="on"></div>
+<!-- ticker -->
+              </div>
+            </div>
+          </div>
+        </section>
+      <section>
+        <div class="container">
+          <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                  <div class="card2">
+                      <div class="card-body2">
+                          <div class="buy-sell-widget">
+                              <ul class="nav nav-tabs">
+                                  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab"
+                                          href="#buy">Buy</a>
+                                  </li>
+                                  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#sell">Sell</a>
+                                  </li>
+                              </ul>
+                              <div class="tab-content tab-content-default">
+                                  <div class="tab-pane fade show active" id="buy" role="tabpanel">
+                                      <form method="post" name="myform" class="currency_validate">
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Currency</label>
+                                              <div class="input-group mb-3">
+                                                 
+                                                  <select name='currency' class="form-control">
+                                                      <option value="">Select</option>
+                                                      <option value="bitcoin">Bitcoin</option>
+                                                      <option value="litecoin">Litecoin</option>
+                                                  </select>
+                                              </div>
+                                          </div>
+
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Payment Method</label>
+                                              <div class="input-group mb-3">
+                                                 
+                                                  <select class="form-control" name="method">
+                                                      <option value="">Select</option>
+                                                      <option value="bank">Bank of America ********45845</option>
+                                                      <option value="master">Master Card ***********5458</option>
+                                                  </select>
+                                              </div>
+                                          </div>
+
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Enter your amount</label>
+                                              <div class="input-group">
+                                                  <input type="text" name="currency_amount" class="form-control"
+                                                      placeholder="0.0214 BTC">
+                                                  <input type="text" name="usd_amount" class="form-control"
+                                                      placeholder="125.00 USD">
+                                              </div>
+                                              <div class="d-flex justify-content-between mt-3">
+                                                  <p class="mb-0">Monthly Limit</p>
+                                                  <h6 class="mb-0">$49750 remaining</h6>
+                                              </div>
+                                          </div>
+                                          <button type="submit" name="submit"
+                                              class="btn btn-success btn-block">Exchange
+                                              Now</button>
+
+                                      </form>
+                                  </div>
+                                  <div class="tab-pane fade" id="sell">
+                                      <form method="post" name="myform" class="currency2_validate">
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Currency</label>
+                                              <div class="input-group mb-3">
+                                                  <select name='currency' class="form-control">
+                                                      <option value="">Select</option>
+                                                      <option value="bitcoin">Bitcoin</option>
+                                                      <option value="litecoin">Litecoin</option>
+                                                  </select>
+                                              </div>
+                                          </div>
+
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Payment Method</label>
+                                              <div class="input-group mb-3">
+                                                  <select class="form-control" name="method">
+                                                      <option value="">Select</option>
+                                                      <option value="bank">Bank of America ********45845</option>
+                                                      <option value="master">Master Card ***********5458</option>
+                                                  </select>
+                                              </div>
+                                          </div>
+
+                                          <div class="mb-3">
+                                              <label class="me-sm-2">Enter your amount</label>
+                                              <div class="input-group">
+                                                  <input type="text" name="currency_amount" class="form-control"
+                                                      placeholder="0.0214 BTC">
+                                                  <input type="text" name="usd_amount" class="form-control"
+                                                      placeholder="125.00 USD">
+                                              </div>
+                                              <div class="d-flex justify-content-between mt-3">
+                                                  <p class="mb-0">Monthly Limit</p>
+                                                  <h6 class="mb-0">$49750 remaining</h6>
+                                              </div>
+                                          </div>
+                                          <button type="submit" name="submit"
+                                              class="btn btn-success btn-block">Exchange
+                                              Now</button>
+
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+                  <p class="p-4">Note: Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate
+                      suscipit explicabo voluptas eos in tenetur error temporibus dolorum. Nulla!</p>
+              </div>
+          </div>
+          </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box">
+              <div class="box-header with-border">
+                <h4 class="box-title">Top Transactions</h4>
+              </div>
+              <div class="box-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered table-striped no-margin">
+                    <thead>
+                    <tr>
+                      <th></th>
+                      <th>Time</th>
+                      <th>Transaction Id</th>
+                      <th>Transactions</th>
+                      <th>Fees</th>
+                      <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0517578" width="63.1713" height="63" rx="31.5" fill="#13B440"/>
+                            <path d="M40.78 32.7207L40.78 32.7207L40.7967 39.6289C40.7968 39.6326 40.7967 39.636 40.7967 39.6392L40.78 32.7207ZM40.78 32.7207C40.778 31.9272 40.1316 31.2854 39.3358 31.2873C38.5401 31.2892 37.8966 31.934 37.8985 32.7275L37.8985 32.7275L37.9068 36.1579L24.6872 22.9741C24.1246 22.413 23.2124 22.413 22.6497 22.9741C22.0871 23.5353 22.0871 24.445 22.6497 25.0061L35.8693 38.1899M40.78 32.7207L35.8693 38.1899M35.8693 38.1899L32.4297 38.1816L32.4296 38.1816C31.634 38.1797 30.9874 38.8214 30.9855 39.615L35.8693 38.1899ZM32.424 40.556L32.4228 41.0553C31.6273 41.0533 30.9836 40.4087 30.9855 39.615L32.424 40.556ZM32.424 40.556L32.4228 41.0553L39.3356 41.0719L39.3526 41.072L39.3529 41.072M32.424 40.556L39.3529 41.072M39.3529 41.072C39.3554 41.072 39.3577 41.072 39.3599 41.0719M39.3529 41.072L39.3599 41.0719M39.3599 41.0719C40.1528 41.0698 40.7939 40.4282 40.7967 39.6403L39.3599 41.0719ZM39.3545 41.0719C39.354 41.0719 39.3535 41.0719 39.3529 41.0719L39.3545 41.0719Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">45&nbsp;seconds ago</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">15,789.638 BTC</span></td>
+                      <td><span class="font-w600 text-black">1.859 BTC</span></td>
+                      <td><a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a></td>
+                    </tr>
+    
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0517578" width="63.1713" height="63" rx="31.5" fill="#13B440"/>
+                            <path d="M40.78 32.7207L40.78 32.7207L40.7967 39.6289C40.7968 39.6326 40.7967 39.636 40.7967 39.6392L40.78 32.7207ZM40.78 32.7207C40.778 31.9272 40.1316 31.2854 39.3358 31.2873C38.5401 31.2892 37.8966 31.934 37.8985 32.7275L37.8985 32.7275L37.9068 36.1579L24.6872 22.9741C24.1246 22.413 23.2124 22.413 22.6497 22.9741C22.0871 23.5353 22.0871 24.445 22.6497 25.0061L35.8693 38.1899M40.78 32.7207L35.8693 38.1899M35.8693 38.1899L32.4297 38.1816L32.4296 38.1816C31.634 38.1797 30.9874 38.8214 30.9855 39.615L35.8693 38.1899ZM32.424 40.556L32.4228 41.0553C31.6273 41.0533 30.9836 40.4087 30.9855 39.615L32.424 40.556ZM32.424 40.556L32.4228 41.0553L39.3356 41.0719L39.3526 41.072L39.3529 41.072M32.424 40.556L39.3529 41.072M39.3529 41.072C39.3554 41.072 39.3577 41.072 39.3599 41.0719M39.3529 41.072L39.3599 41.0719M39.3599 41.0719C40.1528 41.0698 40.7939 40.4282 40.7967 39.6403L39.3599 41.0719ZM39.3545 41.0719C39.354 41.0719 39.3535 41.0719 39.3529 41.0719L39.3545 41.0719Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">2/5/2020 06:24 AM</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">8,745.154 BTC</span></td>
+                      <td><span class="font-w600 text-black">0.458 BTC</span></td>
+                      <td><a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a></td>
+                    </tr>
+    
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0517578" width="63.1713" height="63" rx="31.5" fill="#ffc107"/>
+                            <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">2/5/2020 06:24 AM</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">15,854.708 BTC</span></td>
+                      <td><span class="font-w600 text-black">1.452 BTC</span></td>
+                      <td>
+                        <a class="btn btn-outline-warning float-end" href="javascript:void(0);">Pending</a>
+                      </td>
+                    </tr>
+    
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0517578" width="63.1713" height="63" rx="31.5" fill="#ffc107"/>
+                            <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">2/5/2020 06:24 AM</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">15,745.855 BTC</span></td>
+                      <td><span class="font-w600 text-black">1.745 BTC</span></td>
+                      <td>
+                        <a class="btn btn-outline-warning float-end" href="javascript:void(0);">Pending</a>
+                      </td>
+                    </tr>
+    
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0527344" width="63.1713" height="63" rx="31.5" fill="#F04444"/>
+                            <path d="M22.2454 30.9043L22.2454 30.9043L22.2287 23.9961C22.2286 23.9924 22.2286 23.989 22.2287 23.9858L22.2454 30.9043ZM22.2454 30.9043C22.2473 31.6978 22.8938 32.3396 23.6896 32.3377C24.4853 32.3358 25.1288 31.691 25.1269 30.8975L25.1269 30.8975L25.1186 27.4671L38.3382 40.6509C38.9008 41.212 39.813 41.212 40.3757 40.6509C40.9383 40.0897 40.9383 39.18 40.3757 38.6189L27.1561 25.4351M22.2454 30.9043L27.1561 25.4351M27.1561 25.4351L30.5957 25.4434L30.5957 25.4434C31.3914 25.4453 32.038 24.8036 32.0399 24.01L27.1561 25.4351ZM30.6014 23.069L30.6026 22.5697C31.3981 22.5717 32.0418 23.2163 32.0399 24.01L30.6014 23.069ZM30.6014 23.069L30.6026 22.5697L23.6898 22.5531L23.6728 22.553L23.6724 22.553M30.6014 23.069L23.6724 22.553M23.6724 22.553C23.67 22.553 23.6677 22.553 23.6655 22.5531M23.6724 22.553L23.6655 22.5531M23.6655 22.5531C22.8726 22.5552 22.2315 23.1968 22.2287 23.9847L23.6655 22.5531ZM23.6708 22.5531C23.6714 22.5531 23.6719 22.5531 23.6724 22.5531L23.6708 22.5531Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">2/5/2020 06:24 AM</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">9,125.284 BTC</span></td>
+                      <td><span class="font-w600 text-black">1.412 BTC</span></td>
+                      <td>
+                        <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span>
+                          <svg width="30" height="30" viewBox="0 0 64 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0527344" width="63.1713" height="63" rx="31.5" fill="#F04444"/>
+                            <path d="M22.2454 30.9043L22.2454 30.9043L22.2287 23.9961C22.2286 23.9924 22.2286 23.989 22.2287 23.9858L22.2454 30.9043ZM22.2454 30.9043C22.2473 31.6978 22.8938 32.3396 23.6896 32.3377C24.4853 32.3358 25.1288 31.691 25.1269 30.8975L25.1269 30.8975L25.1186 27.4671L38.3382 40.6509C38.9008 41.212 39.813 41.212 40.3757 40.6509C40.9383 40.0897 40.9383 39.18 40.3757 38.6189L27.1561 25.4351M22.2454 30.9043L27.1561 25.4351M27.1561 25.4351L30.5957 25.4434L30.5957 25.4434C31.3914 25.4453 32.038 24.8036 32.0399 24.01L27.1561 25.4351ZM30.6014 23.069L30.6026 22.5697C31.3981 22.5717 32.0418 23.2163 32.0399 24.01L30.6014 23.069ZM30.6014 23.069L30.6026 22.5697L23.6898 22.5531L23.6728 22.553L23.6724 22.553M30.6014 23.069L23.6724 22.553M23.6724 22.553C23.67 22.553 23.6677 22.553 23.6655 22.5531M23.6724 22.553L23.6655 22.5531M23.6655 22.5531C22.8726 22.5552 22.2315 23.1968 22.2287 23.9847L23.6655 22.5531ZM23.6708 22.5531C23.6714 22.5531 23.6719 22.5531 23.6724 22.5531L23.6708 22.5531Z" fill="white" stroke="white"/>
+                          </svg>
+                        </span>
+                      </td>
+                      <td><span class="font-w600 text-black">2/5/2020 06:24 AM</span></td>
+                      <td><span class="font-w600 text-black">15f5s8s47bhj61r8w4e77e5e56</span></td>
+                      <td><span class="font-w600 text-black">9,125.284 BTC</span></td>
+                      <td><span class="font-w600 text-black">1.412 BTC</span></td>
+                      <td>
+                        <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- /.box-body -->
+              </div>
+              <!-- /.box -->
+          </div>
+        </div>
+      </section>
+        <!-- Start Footer Area -->
+        <div class="footer-area">
+          <div class="container-fluid">
+            <div class="footer-content">
+              <p>
+                © Cryptoexpress is Proudly Owned by
+                <a href="" target="_blank">BlaqCoder</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Area -->
+      </main>
+      <!-- End Main Content Area -->
+    </div>
+
+    <!-- Start Template Sidebar Area -->
+    <div class="template-sidebar-option">
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasRight"
+      >
+        <div class="offcanvas-header">
+          <a href="dashboard.html">
+            <img src="img2/logo.png" alt="main-logo" />
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3>Customization</h3>
+          <ul>
+            <li>
+              <!-- Start Dark Mode All Area -->
+              <h4>Dark/Light Mode</h4>
+              <div class="toggle-theme">
+                <i class="fas"></i>
+              </div>
+              <!-- End Dark Mode All Area -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Template Sidebar Area -->
+
+    <!-- Js Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/backtotop.js"></script>
+    <script src="js/metismenu.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/app2.js"></script>
+  </body>
+</html>

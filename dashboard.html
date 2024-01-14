@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8562e9c476.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/metismenu.min.css" />
+    <link rel="stylesheet" href="css/simplebar.min.css" />
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <!-- Preloader -->
+<div id="preloader">
+  <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+</div>
+<!-- Preloader -->
+ <!-- back to top start -->
+ <div class="progress-wrap">
+  <svg
+    class="progress-circle svg-content"
+    width="100%"
+    height="100%"
+    viewBox="-1 -1 102 102"
+  >
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  </svg>
+</div>
+
+    <!-- all-section-area Start-->
+    <div class="all-section-area">
+      <!-- Start Header Area -->
+      <div class="header-area">
+        <div class="container-fluid">
+          <div class="header-content-wrapper">
+            <div
+              class="header-content d-flex justify-content-between align-items-center"
+            >
+              <div class="header-left-content d-flex">
+                <div class="responsive-burger-menu d-block d-lg-none">
+                  <span class="top-bar"></span>
+                  <span class="middle-bar"></span>
+                  <span class="bottom-bar"></span>
+                </div>
+
+                <div class="main-logo"> 
+                  <a href="dashboard.html">
+                    <img src="img2/logo.png" alt="main-logo" />
+                  </a>
+                </div>
+
+                <form class="search-bar d-flex">
+                  <i class="bx bx-search-alt"></i>
+
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </form>
+
+                <div class="option-item for-mobile-devices d-block d-lg-none">
+                  <i class="search-btn fa-solid fa-magnifying-glass"></i>
+                  <i class="close-btn fa-solid fa-x"></i>
+
+                  <div class="search-overlay search-popup">
+                    <div class="search-box">
+                      <form class="search-form">
+                        <input
+                          class="search-input"
+                          name="search"
+                          placeholder="Search"
+                          type="text"
+                        />
+
+                        <button class="search-button" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-right-content d-flex align-items-center">
+                <div class="header-right-option">
+                  <a
+                    href="#"
+                    class="dropdown-item fullscreen-btn"
+                    id="fullscreen-button"
+                  >
+                    <i class="bx bx-fullscreen"></i>
+                  </a>
+                </div>
+
+                <div
+                  class="header-right-option notification-option messenger-option dropdown"
+                >
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="messages-btn">
+                      <i class="bx bx-message-square-dots"></i>
+                      <span class="badge">3</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block">5 New Message</span>
+                      <span class="mark-all-btn d-inline-block">Clear All</span>
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-1.png" alt="user-1" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Alex Dew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-2.png" alt="user-2" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Anne Kew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-3.png" alt="user-3" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Huhon Smith</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-4.png" alt="user-4" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Yelax Spin</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-5.png" alt="user-5" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Steven</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="#" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option notification-option dropdown">
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="notification-btn">
+                      <i class="bx bxs-bell-ring"></i>
+                      <span class="badge">4</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block"
+                        >6 New Notifications</span
+                      >
+                      <span class="mark-all-btn d-inline-block"
+                        >Mark all as read</span
+                      >
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Just sent a new message!</span>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">New customer registered</span>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Apps are ready for update</span>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-hourglass"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Your item is shipped</span>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block"
+                            >Steven commented on your post</span
+                          >
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="inbox.html" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="header-right-option dropdown profile-nav-item pt-0 pb-0"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle avatar d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdown-4"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img2/avatar.png" alt="avatar" />
+                    <div class="d-none d-lg-block d-md-block">
+                      <h3>Max West</h3>
+                      <span>Super Admin</span>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex flex-column align-items-center"
+                    >
+                      <div class="figure mb-3">
+                        <img
+                          src="img2/avatar.png"
+                          class="rounded-circle"
+                          alt="avatar"
+                        />
+                      </div>
+
+                      <div class="info text-center">
+                        <span class="name">Max West</span>
+                        <p class="mb-3 email">
+                          <a href="#"
+                            ><span
+                              class="__cf_email__"
+                              data-cfemail="0b61646365786662676c6a4b636e67676425686466"
+                              >[email&#160;protected]</span
+                            ></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="dropdown-wrap">
+                      <ul class="profile-nav p-0 pt-3">
+                        <li class="nav-item">
+                          <a href="profile.html" class="nav-link">
+                            <i class='bx bxs-user-circle'></i>
+                            <span>Profile</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="inbox.html" class="nav-link">
+                            <i class='bx bx-mail-send'></i>
+                            <span>My Inbox</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="edit.html" class="nav-link">
+                            <i class='bx bx-edit'></i>
+                            <span>Edit Profile</span>
+                          </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="activity.html" class="nav-link">
+                                <i class='bx bx-history'></i>
+                              <span> Activity</span>
+                            </a>
+                          </li>
+                        <li class="nav-item">
+                          <a href="setting.html" class="nav-link">
+                            <i class='bx bxs-cog' ></i>
+                            <span>Settings</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <ul class="profile-nav">
+                        <li class="nav-item">
+                          <a href="login.html" class="nav-link">
+                            <i class="bx bx-log-in-circle"></i>
+                            <span>Logout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option template-option">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    <img src="img2/setting.svg" alt="setting" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Area -->
+
+      <!-- Start Sidebar Menu Area -->
+      <nav class="sidebar-menu">
+        <ul
+          class="list-group flex-column d-inline-block first-menu"
+          data-simplebar
+        >
+          <li class="list-group-item main-grid active">
+            <a
+              href="dashboard.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Trade"
+            >
+              <i class="bx bxs-dashboard"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a
+              href="exchange.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Exchange"
+            >
+              <i class="bx bx-transfer"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="deposit.html" class="icon"   data-toggle="tooltip"
+            data-placement="right"
+            title="Deposit">
+              <i class="bx bx-money"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="withdraw.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Withdraw">
+              <i class="bx bxs-wallet"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="setting.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Setting">
+              <i class="bx bxs-cog"></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- End Sidebar Menu Area -->
+      <!-- Start Main Content Area -->
+      <main class="main-content-wrap">
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="owl-bank-wallet owl-carousel owl-loaded owl-drag mb-sm-4 mb-0">
+                      <div class="items">
+                        <div class="card-bx bg-primary">
+                          <img class="pattern-img" src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/pattern/pattern1.png" alt="">
+                          <div class="card-info text-white">
+                            <div class="d-flex align-items-center mb-3">
+                              <img class="cr-logo me-auto" src="img2/BTC.png" alt="">
+                              <p class="mb-0">**** **** **** 1234</p>
+                            </div>
+                            <div class="mb-3">
+                              <p class="fs-10 mb-2">Account Balance</p>
+                              <h3 class="text-white">$673,412.66</h3>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div class="me-4">
+                                <p class="fs-10 mb-0 op6">VALID THRU</p>
+                                <span class="fs-11">08/21</span>
+                              </div>
+                              <div>
+                                <p class="fs-10 mb-0 op6">CARD HOLDER</p>
+                                <span class="fs-11">Max West</span>
+                              </div>
+                              <img src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/dot.svg" class="dots-img ms-auto" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items">
+                        <div class="card-bx bg-info">
+                          <img class="pattern-img" src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/pattern/pattern1.png" alt="">
+                          <div class="card-info text-white">
+                            <div class="d-flex align-items-center mb-3">
+                              <img class="cr-logo me-auto" src="img2/BTC.png" alt="">
+                              <p class="mb-0">**** **** **** 1234</p>
+                            </div>
+                            <div class="mb-3">
+                              <p class="fs-10 mb-2">Total Invested</p>
+                              <h3 class="text-white">$673,412.66</h3>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div class="me-4">
+                                <p class="fs-10 mb-0 op6">VALID THRU</p>
+                                <span class="fs-11">08/21</span>
+                              </div>
+                              <div>
+                                <p class="fs-10 mb-0 op6">CARD HOLDER</p>
+                                <span class="fs-11">Max West</span>
+                              </div>
+                              <img src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/dot.svg" class="dots-img ms-auto" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items">
+                        <div class="card-bx bg-secondary">
+                          <img class="pattern-img" src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/pattern/pattern1.png" alt="">
+                          <div class="card-info text-white">
+                            <div class="d-flex align-items-center mb-3">
+                              <img class="cr-logo me-auto" src="img2/BTC.png" alt="">
+                              <p class="mb-0">**** **** **** 1234</p>
+                            </div>
+                            <div class="mb-3">
+                              <p class="fs-10 mb-2">Total Profits</p>
+                              <h3 class="text-white">$673,412.66</h3>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div class="me-4">
+                                <p class="fs-10 mb-0 op6">VALID THRU</p>
+                                <span class="fs-11">08/21</span>
+                              </div>
+                              <div>
+                                <p class="fs-10 mb-0 op6">CARD HOLDER</p>
+                                <span class="fs-11">Max West</span>
+                              </div>
+                              <img src="https://chrev.dexignzone.com/codeigniter/demo/public/assets/images/dot.svg" class="dots-img ms-auto" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <!-- crypto indicator -->
+        <section class="cryptoind">
+          <div class="row">
+            <div class="col-xl-5 col-xxl-3">
+              <div class="box">
+                <div class="box-body">
+                  <div class="cryptohopper-web-widget" data-id="9" data-text_color="#ffffff" data-theme="custom" data-background_color="#1d2330" data-coins="bitcoin,ethereum,tether,solana,litecoin,bitcoin-cash" data-multi_currencies="AUD,BTC,EUR,GBP,USD" data-realtime="on"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7 col-xxl-9 mb-3">
+              <div class="tradingview-widget-container">
+                <div id="tradingview_a32af"></div>
+                <div class="tradingview-widget-copyright">
+                  <a
+                    href="https://www.tradingview.com/symbols/BTCUSD/?exchange=BITSTAMP"
+                    rel="noopener"
+                    target="_blank"
+                    ><span class="blue-text">BTCUSD Chart</span></a
+                  >
+                  by TradingView
+                </div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/tv.js"
+                ></script>
+                <script type="text/javascript">
+                  new TradingView.widget({
+                    width: "auto",
+                    height: "465",
+                    symbol: "BITSTAMP:BTCUSD",
+                    interval: "D",
+                    timezone: "Etc/UTC",
+                    theme: "dark",
+                    "isTransparent": true,
+                    style: "1",
+                    locale: "en",
+                    toolbar_bg: "#f1f3f6",
+                    enable_publishing: false,
+                    allow_symbol_change: true,
+                    calendar: true,
+                    show_popup_button: true,
+                    popup_width: "1000",
+                    popup_height: "650",
+                    container_id: "tradingview_a32af",
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-sm-12">
+              <div class="cryptohopper-web-widget" data-id="4" data-text_color="#ffffff" data-background_color="#1d2330" data-coins="bitcoin,ethereum,bnb,solana,litecoin" data-theme="custom" data-realtime="on"></div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-12">
+                <div class="box">
+                  <div class="box-body">
+                  <div class="position-relative">
+                    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BINANCE:BTCUSD",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "ALL",
+  "colorTheme": "light",
+  "isTransparent": true,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="box">
+                  <div class="box-body">
+                    <div class="position-relative">
+                    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BINANCE:ETHUSD",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "ALL",
+  "colorTheme": "light",
+  "isTransparent": true,
+  "autosize": true,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="box">
+                  <div class="box-body">
+                    <div class="position-relative">
+                 <!-- Crypto Converter ⚡ Widget --><crypto-converter-widget shadow symbol live background-color="#1d2330" border-radius="0.60rem" fiat="united-states-dollar" crypto="bitcoin" amount="1" decimal-places="2"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- crypto indicator -->
+        <!-- activity section -->
+        <section>
+          <div class="container">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="card">
+                      <div class="card-header pb-2 d-block d-sm-flex flex-wrap border-0">
+                        <div class="mb-3">
+                          <h4 class="fs-20 text-black">Recent Trading Activities</h4>
+                          <p class="mb-0 fs-12">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                        <div class="card-action card-tabs mb-3 style-1">
+                          <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-bs-toggle="tab" href="#monthly">
+                                Monthly	
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-bs-toggle="tab" href="#Weekly">
+                                Weekly
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-bs-toggle="tab" href="#Today">
+                                Today
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body tab-content p-0">
+                        <div class="tab-pane active show fade" id="monthly">
+                          <div class="table-responsive">
+                            <table class="table shadow-hover card-table border-no tbl-btn short-one">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td><a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#ffc107"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.3182 13.6531C12.1139 13.7348 11.8863 13.7348 11.682 13.6531L9.48944 12.7761L12.0001 17.7974L14.5107 12.7761L12.3182 13.6531Z" fill="#DC3CCC"/>
+                                      <path d="M12.0001 11.9341L15.0156 10.7279L12.0001 5.90308L8.98456 10.7279L12.0001 11.9341Z" fill="#DC3CCC"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9927 5.37574 18.6243 0.00732425 12 0ZM17.0524 11.5263L12.7667 20.0977C12.5551 20.5212 12.04 20.6928 11.6168 20.4812C11.4507 20.3983 11.3162 20.2638 11.2333 20.0977L6.94757 11.5263C6.81443 11.2589 6.8296 10.9416 6.9876 10.6882L11.2733 3.83111C11.5582 3.42984 12.114 3.33515 12.5153 3.62001C12.5972 3.67808 12.6686 3.74923 12.7267 3.83111L17.0121 10.6882C17.1704 10.9416 17.1856 11.2589 17.0524 11.5263Z" fill="#DC3CCC"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Ethereum</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-warning">	-0.000242 ETH</span>
+                                  </td>
+                                  
+                                  <td>
+                                    <a class="btn btn-outline-warning float-end" href="javascript:void(0);">Pending</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                  <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM16.2857 18.0001H9.42866C8.9552 18.0001 8.57147 17.6164 8.57147 17.1429C8.57147 17.1024 8.57434 17.0618 8.5801 17.0216L9.22515 12.5054L7.92222 12.8313C7.85421 12.8486 7.78437 12.8572 7.71427 12.8572C7.24081 12.8567 6.85759 12.4727 6.85785 11.9992C6.85838 11.6063 7.12571 11.2642 7.50683 11.1684L9.48674 10.6735L10.2942 5.0213C10.3612 4.55254 10.7954 4.22714 11.2642 4.2941C11.7329 4.36107 12.0583 4.79529 11.9914 5.26404L11.2825 10.2247L14.3636 9.4543C14.8222 9.33737 15.2886 9.61439 15.4053 10.0729C15.5222 10.5315 15.2452 10.9979 14.7866 11.1148C14.784 11.1153 14.7814 11.1161 14.7788 11.1166L11.0204 12.0562L10.4164 16.2857H16.2857C16.7592 16.2857 17.1429 16.6695 17.1429 17.1429C17.1429 17.6161 16.7592 18.0001 16.2857 18.0001Z" fill="#5F5F5F"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Litecoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$7,762</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 LTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="Weekly">
+                          <div class="table-responsive">
+                            <table class="table shadow-hover card-table border-no tbl-btn short-one">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td><a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#ffc107"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.3182 13.6531C12.1139 13.7348 11.8863 13.7348 11.682 13.6531L9.48944 12.7761L12.0001 17.7974L14.5107 12.7761L12.3182 13.6531Z" fill="#DC3CCC"/>
+                                      <path d="M12.0001 11.9341L15.0156 10.7279L12.0001 5.90308L8.98456 10.7279L12.0001 11.9341Z" fill="#DC3CCC"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9927 5.37574 18.6243 0.00732425 12 0ZM17.0524 11.5263L12.7667 20.0977C12.5551 20.5212 12.04 20.6928 11.6168 20.4812C11.4507 20.3983 11.3162 20.2638 11.2333 20.0977L6.94757 11.5263C6.81443 11.2589 6.8296 10.9416 6.9876 10.6882L11.2733 3.83111C11.5582 3.42984 12.114 3.33515 12.5153 3.62001C12.5972 3.67808 12.6686 3.74923 12.7267 3.83111L17.0121 10.6882C17.1704 10.9416 17.1856 11.2589 17.0524 11.5263Z" fill="#DC3CCC"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Ethereum</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-warning">	-0.000242 ETH</span>
+                                  </td>
+                                  
+                                  <td>
+                                    <a class="btn btn-outline-warning float-end" href="javascript:void(0);">Pending</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                  <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM16.2857 18.0001H9.42866C8.9552 18.0001 8.57147 17.6164 8.57147 17.1429C8.57147 17.1024 8.57434 17.0618 8.5801 17.0216L9.22515 12.5054L7.92222 12.8313C7.85421 12.8486 7.78437 12.8572 7.71427 12.8572C7.24081 12.8567 6.85759 12.4727 6.85785 11.9992C6.85838 11.6063 7.12571 11.2642 7.50683 11.1684L9.48674 10.6735L10.2942 5.0213C10.3612 4.55254 10.7954 4.22714 11.2642 4.2941C11.7329 4.36107 12.0583 4.79529 11.9914 5.26404L11.2825 10.2247L14.3636 9.4543C14.8222 9.33737 15.2886 9.61439 15.4053 10.0729C15.5222 10.5315 15.2452 10.9979 14.7866 11.1148C14.784 11.1153 14.7814 11.1161 14.7788 11.1166L11.0204 12.0562L10.4164 16.2857H16.2857C16.7592 16.2857 17.1429 16.6695 17.1429 17.1429C17.1429 17.6161 16.7592 18.0001 16.2857 18.0001Z" fill="#5F5F5F"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Litecoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$7,762</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 LTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="Today">
+                          <div class="table-responsive">
+                            <table class="table shadow-hover card-table border-no tbl-btn short-one">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td><a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#ffc107"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.3182 13.6531C12.1139 13.7348 11.8863 13.7348 11.682 13.6531L9.48944 12.7761L12.0001 17.7974L14.5107 12.7761L12.3182 13.6531Z" fill="#DC3CCC"/>
+                                      <path d="M12.0001 11.9341L15.0156 10.7279L12.0001 5.90308L8.98456 10.7279L12.0001 11.9341Z" fill="#DC3CCC"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9927 5.37574 18.6243 0.00732425 12 0ZM17.0524 11.5263L12.7667 20.0977C12.5551 20.5212 12.04 20.6928 11.6168 20.4812C11.4507 20.3983 11.3162 20.2638 11.2333 20.0977L6.94757 11.5263C6.81443 11.2589 6.8296 10.9416 6.9876 10.6882L11.2733 3.83111C11.5582 3.42984 12.114 3.33515 12.5153 3.62001C12.5972 3.67808 12.6686 3.74923 12.7267 3.83111L17.0121 10.6882C17.1704 10.9416 17.1856 11.2589 17.0524 11.5263Z" fill="#DC3CCC"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Ethereum</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-warning">	-0.000242 ETH</span>
+                                  </td>
+                                  
+                                  <td>
+                                    <a class="btn btn-outline-warning float-end" href="javascript:void(0);">Pending</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                  <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM16.2857 18.0001H9.42866C8.9552 18.0001 8.57147 17.6164 8.57147 17.1429C8.57147 17.1024 8.57434 17.0618 8.5801 17.0216L9.22515 12.5054L7.92222 12.8313C7.85421 12.8486 7.78437 12.8572 7.71427 12.8572C7.24081 12.8567 6.85759 12.4727 6.85785 11.9992C6.85838 11.6063 7.12571 11.2642 7.50683 11.1684L9.48674 10.6735L10.2942 5.0213C10.3612 4.55254 10.7954 4.22714 11.2642 4.2941C11.7329 4.36107 12.0583 4.79529 11.9914 5.26404L11.2825 10.2247L14.3636 9.4543C14.8222 9.33737 15.2886 9.61439 15.4053 10.0729C15.5222 10.5315 15.2452 10.9979 14.7866 11.1148C14.784 11.1153 14.7814 11.1161 14.7788 11.1166L11.0204 12.0562L10.4164 16.2857H16.2857C16.7592 16.2857 17.1429 16.6695 17.1429 17.1429C17.1429 17.6161 16.7592 18.0001 16.2857 18.0001Z" fill="#5F5F5F"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Litecoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$7,762</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 LTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#71B945"/>
+                                        <path d="M40.6186 32.7207L40.6186 32.7207L40.6353 39.6289C40.6354 39.6328 40.6354 39.6363 40.6353 39.6396M40.6186 32.7207L40.1353 39.6341L40.6353 39.635C40.6353 39.6481 40.6347 39.6583 40.6345 39.6627L40.6344 39.6642C40.6346 39.6609 40.6351 39.652 40.6353 39.6407C40.6353 39.6403 40.6353 39.64 40.6353 39.6396M40.6186 32.7207C40.6167 31.9268 39.9717 31.2847 39.1777 31.2866C38.3838 31.2885 37.7417 31.9336 37.7436 32.7275L37.7436 32.7275L37.7519 36.1563M40.6186 32.7207L37.7519 36.1563M40.6353 39.6396C40.6329 40.4282 39.9931 41.0705 39.2017 41.0726C39.2 41.0726 39.1983 41.0727 39.1965 41.0727L39.1944 41.0727L39.1773 41.0726L32.2834 41.056L32.2846 40.556L32.2834 41.056C31.4897 41.054 30.8474 40.4091 30.8494 39.615C30.8513 38.8211 31.4964 38.179 32.2903 38.1809L32.2903 38.1809L35.719 38.1892L22.5364 25.0066C21.975 24.4452 21.975 23.5351 22.5364 22.9737C23.0978 22.4123 24.0079 22.4123 24.5693 22.9737L37.7519 36.1563M40.6353 39.6396C40.6353 39.6376 40.6353 39.6356 40.6353 39.6336L37.7519 36.1563M39.1964 41.0726C39.1957 41.0726 39.1951 41.0726 39.1944 41.0726L39.1964 41.0726Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg  class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M16 9.50011C15.9992 8.67201 15.216 8.00092 14.2501 8H9V11H14.2501C15.216 10.9993 15.9992 10.328 16 9.50011Z" fill="#FFAB2D"/>
+                                      <path d="M9 16H14.2501C15.2165 16 16 15.3285 16 14.5001C16 13.6715 15.2165 13 14.2501 13H9V16Z" fill="#FFAB2D"/>
+                                      <path d="M12 0C5.3726 0 0 5.3726 0 12C0 18.6274 5.3726 24 12 24C18.6274 24 24 18.6274 24 12C23.9924 5.37574 18.6243 0.00758581 12 0ZM18.0001 14.5713C17.9978 16.4641 16.4641 17.9978 14.5716 17.9999V18.8571C14.5716 19.3305 14.1876 19.7143 13.7144 19.7143C13.2409 19.7143 12.8572 19.3305 12.8572 18.8571V17.9999H11.1431V18.8571C11.1431 19.3305 10.7591 19.7143 10.2859 19.7143C9.8124 19.7143 9.42866 19.3305 9.42866 18.8571V17.9999H6.85733C6.38387 17.9999 6.00013 17.6161 6.00013 17.1429C6.00013 16.6695 6.38387 16.2857 6.85733 16.2857H7.71427V7.71427H6.85733C6.38387 7.71427 6.00013 7.33053 6.00013 6.85707C6.00013 6.38361 6.38387 5.99987 6.85733 5.99987H9.42866V5.14293C9.42866 4.66947 9.8124 4.28573 10.2859 4.28573C10.7593 4.28573 11.1431 4.66947 11.1431 5.14293V5.99987H12.8572V5.14293C12.8572 4.66947 13.2409 4.28573 13.7144 4.28573C14.1879 4.28573 14.5716 4.66947 14.5716 5.14293V5.99987C16.4571 5.99202 17.992 7.5139 18.0001 9.39937C18.0043 10.3978 17.5714 11.3481 16.8152 12C17.5643 12.6445 17.9967 13.5828 18.0001 14.5713Z" fill="#FFAB2D"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Bitcoin</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">+$5,553</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-success">	-0.000242 BTC</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-success float-end" href="javascript:void(0);">Completed</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span>
+                                      <svg width="50" height="50" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="63" height="63" rx="14" fill="#FF5757"/>
+                                        <path d="M22.1318 30.9043L22.1318 30.9043L22.1151 23.9961C22.1151 23.9922 22.1151 23.9887 22.1152 23.9854M22.1318 30.9043L22.6152 23.9909L22.1152 23.99C22.1152 23.9769 22.1157 23.9667 22.116 23.9623L22.1161 23.9608C22.1159 23.9641 22.1154 23.973 22.1152 23.9843C22.1152 23.9847 22.1152 23.985 22.1152 23.9854M22.1318 30.9043C22.1338 31.6982 22.7788 32.3403 23.5728 32.3384C24.3667 32.3365 25.0088 31.6914 25.0069 30.8975L25.0069 30.8975L24.9986 27.4687M22.1318 30.9043L24.9986 27.4687M22.1152 23.9854C22.1176 23.1968 22.7574 22.5545 23.5488 22.5524C23.5504 22.5524 23.5522 22.5523 23.554 22.5523L23.5561 22.5523L23.5732 22.5524L30.4671 22.569L30.4658 23.069L30.4671 22.569C31.2608 22.571 31.903 23.2159 31.9011 24.01C31.8992 24.8039 31.2541 25.446 30.4602 25.4441L30.4602 25.4441L27.0315 25.4358L40.2141 38.6184C40.7755 39.1798 40.7755 40.0899 40.2141 40.6513C39.6527 41.2127 38.7426 41.2127 38.1812 40.6513L24.9986 27.4687M22.1152 23.9854C22.1152 23.9874 22.1152 23.9894 22.1152 23.9914L24.9986 27.4687M23.5541 22.5524C23.5547 22.5524 23.5554 22.5524 23.5561 22.5524L23.5541 22.5524Z" fill="white" stroke="white"/>
+                                      </svg>
+                                    </span>
+                                  </td>
+                                  <td class="wspace-no">
+                                    <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.2161 0.00189099C5.59822 -0.114662 0.118718 5.17136 0.00213245 11.7875C-0.0369579 13.869 0.462987 15.8373 1.36961 17.5623H5.14217V5.75207C5.14217 5.03013 6.12354 4.80045 6.44244 5.44835L12.0001 16.6998L17.5578 5.44903C17.8767 4.80045 18.8581 5.03013 18.8581 5.75207V17.5623H22.619C23.4625 15.9594 23.9645 14.1494 23.9981 12.2194C24.1147 5.60329 18.8341 0.1253 12.2161 0.00189099Z" fill="#FF782C"/>
+                                      <path d="M17.4865 18.2479V8.6892L12.6146 18.5516C12.3842 19.0199 11.6154 19.0199 11.385 18.5516L6.51376 8.6892V18.2479C6.51376 18.6264 6.20721 18.9335 5.82796 18.9335H2.22685C4.36036 21.9303 7.82911 23.9241 11.7841 23.9981C15.8968 24.0708 19.5672 22.0551 21.7871 18.9335H18.1723C17.793 18.9335 17.4865 18.6264 17.4865 18.2479Z" fill="#FF782C"/>
+                                    </svg>
+                                    <span class="font-w600 text-black">Monero</span>
+                                  </td>
+                                  <td>
+                                    <span class="text-black">06:24:45 AM</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-black">-$912</span>
+                                  </td>
+                                  <td>
+                                    <span class="font-w600 text-danger">	-0.000242 XMR</span>
+                                  </td>
+                                  <td>
+                                    <a class="btn btn-outline-danger float-end" href="javascript:void(0);">Canceled</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer border-0 p-0 caret mt-1">
+                        <a href="coin-details.html" class="btn-link"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </section>
+        <!-- activity section -->
+        <section>
+          
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="invite-content">
+                    <h4 class="text-black">Invite a friend and get $30</h4>
+                    <p class="text-black">
+                      You will receive up to $30 when they： 1.Buy Crypto 2.
+                      Deposit 3. Finish Trading Tasks <br /><a href="#"
+                        >Learn more</a
+                      >
+                    </p>
+                    <div class="copy-text justify-content-center">
+                      <input type="text" class="text" value="https://www.Cryptoexpress.io/join/12345" id="myInput">
+                      <button   onclick="myFunction()"><i class="fa fa-clone"></i></button>
+                  </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="invite-content">
+                    <h4 class="text-black">Get free BTC every day</h4>
+                    <p class="text-black">
+                      Earn free bitcoins in rewards by completing a learning
+                      mission daily or inviting friends to Qash.
+                      <a href="#">Learn more</a>
+                    </p>
+
+                    <a href="#" class="btn btn-primary"
+                      >Invite friends to join</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- Start Footer Area -->
+        <div class="footer-area">
+          <div class="container-fluid">
+            <div class="footer-content">
+              <p>
+                © Cryptoexpress is Proudly Owned by
+                <a href="" target="_blank">BlaqCoder</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Area -->
+      </main>
+      <!-- End Main Content Area -->
+    </div>
+
+    <!-- Start Template Sidebar Area -->
+    <div class="template-sidebar-option">
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasRight"
+      >
+        <div class="offcanvas-header">
+          <a href="dashboard.html">
+            <img src="img2/logo.png" alt="main-logo" />
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3>Customization</h3>
+          <ul>
+            <li>
+              <!-- Start Dark Mode All Area -->
+              <h4>Dark/Light Mode</h4>
+              <div class="toggle-theme">
+                <i class="fas"></i>
+              </div>
+              <!-- End Dark Mode All Area -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Template Sidebar Area -->
+
+    <!-- Js Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/backtotop.js"></script>
+    <script src="js/metismenu.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/app2.js"></script>
+  </body>
+</html>

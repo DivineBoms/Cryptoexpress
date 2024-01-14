@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8562e9c476.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/metismenu.min.css" />
+    <link rel="stylesheet" href="css/simplebar.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+       <!-- Preloader -->
+<div id="preloader">
+  <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+</div>
+<!-- Preloader -->
+ <!-- back to top start -->
+ <div class="progress-wrap">
+  <svg
+    class="progress-circle svg-content"
+    width="100%"
+    height="100%"
+    viewBox="-1 -1 102 102"
+  >
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  </svg>
+</div>
+    <!-- all-section-area Start-->
+    <div class="all-section-area">
+      <!-- Start Header Area -->
+      <div class="header-area">
+        <div class="container-fluid">
+          <div class="header-content-wrapper">
+            <div
+              class="header-content d-flex justify-content-between align-items-center"
+            >
+              <div class="header-left-content d-flex">
+                <div class="responsive-burger-menu d-block d-lg-none">
+                  <span class="top-bar"></span>
+                  <span class="middle-bar"></span>
+                  <span class="bottom-bar"></span>
+                </div>
+
+                <div class="main-logo">
+                  <a href="dashboard.html">
+                    <img src="img2/logo.png" alt="main-logo" />
+                  </a>
+                </div>
+
+                <form class="search-bar d-flex">
+                  <i class="bx bx-search-alt"></i>
+
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </form>
+
+                <div class="option-item for-mobile-devices d-block d-lg-none">
+                  <i class="search-btn fa-solid fa-magnifying-glass"></i>
+                  <i class="close-btn fa-solid fa-x"></i>
+
+                  <div class="search-overlay search-popup">
+                    <div class="search-box">
+                      <form class="search-form">
+                        <input
+                          class="search-input"
+                          name="search"
+                          placeholder="Search"
+                          type="text"
+                        />
+
+                        <button class="search-button" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-right-content d-flex align-items-center">
+                <div class="header-right-option">
+                  <a
+                    href="#"
+                    class="dropdown-item fullscreen-btn"
+                    id="fullscreen-button"
+                  >
+                    <i class="bx bx-fullscreen"></i>
+                  </a>
+                </div>
+
+                <div
+                  class="header-right-option notification-option messenger-option dropdown"
+                >
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="messages-btn">
+                      <i class="bx bx-message-square-dots"></i>
+                      <span class="badge">3</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block">5 New Message</span>
+                      <span class="mark-all-btn d-inline-block">Clear All</span>
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-1.png" alt="user-1" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Alex Dew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-2.png" alt="user-2" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Anne Kew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-3.png" alt="user-3" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Huhon Smith</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-4.png" alt="user-4" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Yelax Spin</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-5.png" alt="user-5" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Steven</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="#" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option notification-option dropdown">
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="notification-btn">
+                      <i class="bx bxs-bell-ring"></i>
+                      <span class="badge">4</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block"
+                        >6 New Notifications</span
+                      >
+                      <span class="mark-all-btn d-inline-block"
+                        >Mark all as read</span
+                      >
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Just sent a new message!</span>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">New customer registered</span>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Apps are ready for update</span>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-hourglass"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Your item is shipped</span>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block"
+                            >Steven commented on your post</span
+                          >
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="inbox.html" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="header-right-option dropdown profile-nav-item pt-0 pb-0"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle avatar d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdown-4"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img2/avatar.png" alt="avatar" />
+                    <div class="d-none d-lg-block d-md-block">
+                      <h3>Max West</h3>
+                      <span>Super Admin</span>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex flex-column align-items-center"
+                    >
+                      <div class="figure mb-3">
+                        <img
+                          src="img2/avatar.png"
+                          class="rounded-circle"
+                          alt="avatar"
+                        />
+                      </div>
+
+                      <div class="info text-center">
+                        <span class="name">Max West</span>
+                        <p class="mb-3 email">
+                          <a href="#"
+                            ><span
+                              class="__cf_email__"
+                              data-cfemail="0b61646365786662676c6a4b636e67676425686466"
+                              >[email&#160;protected]</span
+                            ></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="dropdown-wrap">
+                      <ul class="profile-nav p-0 pt-3">
+                        <li class="nav-item">
+                          <a href="profile.html" class="nav-link">
+                            <i class='bx bxs-user-circle'></i>
+                            <span>Profile</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="inbox.html" class="nav-link">
+                            <i class='bx bx-mail-send'></i>
+                            <span>My Inbox</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="edit.html" class="nav-link">
+                            <i class='bx bx-edit'></i>
+                            <span>Edit Profile</span>
+                          </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="activity.html" class="nav-link">
+                                <i class='bx bx-history'></i>
+                              <span> Activity</span>
+                            </a>
+                          </li>
+                        <li class="nav-item">
+                          <a href="setting.html" class="nav-link">
+                            <i class='bx bxs-cog' ></i>
+                            <span>Settings</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <ul class="profile-nav">
+                        <li class="nav-item">
+                          <a href="login.html" class="nav-link">
+                            <i class="bx bx-log-in-circle"></i>
+                            <span>Logout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option template-option">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    <img src="img2/setting.svg" alt="setting" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Area -->
+
+      <!-- Start Sidebar Menu Area -->
+      <nav class="sidebar-menu">
+        <ul
+          class="list-group flex-column d-inline-block first-menu"
+          data-simplebar
+        >
+          <li class="list-group-item main-grid active">
+            <a
+              href="dashboard.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Trade"
+            >
+              <i class="bx bxs-dashboard"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a
+              href="exchange.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Exchange"
+            >
+              <i class="bx bx-transfer"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="deposit.html" class="icon"   data-toggle="tooltip"
+            data-placement="right"
+            title="Deposit">
+              <i class="bx bx-money"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="withdraw.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Withdraw">
+              <i class="bx bxs-wallet"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="setting.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Setting">
+              <i class="bx bxs-cog"></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- End Sidebar Menu Area -->
+      <!-- Start Main Content Area -->
+      <main class="main-content-wrap">
+        <section class="ticker">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+               <!-- ticker -->
+<div class="cryptohopper-web-widget" data-id="2" data-text_color="#ffffff" data-background_color="#1d2330" data-theme="custom" data-realtime="on"></div>
+<!-- ticker -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="card2">
+                        <div class="card-body2">
+                            <div class="withdraw">
+                                <ul class="nav nav-tabs justify-content-center">
+                                    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab"
+                                            href="#credit-card"><i class="fas fa-credit-card mr-2"></i>  Credit Card</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#paypal"><i class="fab fa-paypal mr-2"></i> Paypal </a> </a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#bitcoin"><i class="fab fa-bitcoin  mr-2"></i> Bitcoin </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content tab-content-default">
+                                    <div class="tab-pane fade show active" id="credit-card" role="tabpanel">
+                                        <div class="with-details">
+                                            <p>Mimimum</p>
+                                            <p>$50</p>
+                                          </div>
+                                          <div class="with-details mb-3" >
+                                            <p>Charges</p>
+                                            <p>%5</p>
+                                          </div>
+                                        <form method="post" name="myform" class="currency_validate">
+                                            <div class="mb-3">
+                                                <label class="me-sm-2">Card Owner</label>
+                                                <div class="input-group mb-3">
+                                                </label> <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+                                                <div class="form-group"> <label for="cardNumber">
+                                                </div>
+                                            </div>
+  
+                                            <div class="mb-3">
+                                                <label class="me-sm-2">Card Number</label>
+                                                <div class="input-group mb-3">
+                                                    <input type="text" name="cardNumber" placeholder="Valid card number" class="form-control " required>
+                                                </div>
+                                            </div>
+                                                  <div class="row ">
+                                                    <div class="col-md-12">
+                                                        <ul class="cards">
+                                                            <li class="visa hand">Visa</li>
+                                                            <li class="mastercard hand">MasterCard</li>
+                                                            <li class="amex hand">Amex</li>
+                                                        </ul>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                  </div>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <div class="form-group"> <label><span class="hidden-xs">
+                                                                <h6>Expiration Date</h6>
+                                                            </span></label>
+                                                        <div class="input-group"> <input type="number" placeholder="MM" name="" class="form-control" required> <input type="number" placeholder="YY" name="" class="form-control" required> </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group mb-4"> <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                                                            <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
+                                                        </label> <input type="text" required class="form-control"> </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit" name="submit"
+                                                class="btn2 btn-success btn-block">Withdraw</button>
+  
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="paypal">
+                                        <div class="with-details">
+                                            <p>Mimimum</p>
+                                            <p>$50</p>
+                                          </div>
+                                          <div class="with-details mb-3" >
+                                            <p>Charges</p>
+                                            <p>%5</p>
+                                          </div>
+                                            <h6 class="pb-2">Select your paypal account type</h6>
+                                            <form class="radio-form">
+                                                <input checked="" value="a" name="hopping" type="radio" id="a">
+                                                <label for="a"><span></span> Domestic </label>
+                                                <input value="b" name="hopping" type="radio" id="b">
+                                                <label for="b"><span></span>International</label>
+                                                <div class="worm">
+                                                  <div class="worm__segment"></div>
+                                                </div>
+                                              </form>
+                                            <p> <button type="button" class="btn2 btn-primary "><i class="fab fa-paypal mr-2"></i> Log into my Paypal</button> </p>
+                                            <p class="with-text"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order. </p>
+                                        </div> <!-- End -->
+                                        <div class="tab-pane fade" id="bitcoin">
+                                            <div class="with-details">
+                                              <p>Mimimum</p>
+                                              <p>$50</p>
+                                            </div>
+                                            <div class="with-details mb-3" >
+                                              <p>Charges</p>
+                                              <p>%0</p>
+                                            </div>
+                                            <div id="credit-card" class="tab-pane fade show active pt-3">
+                                              <form role="form" onsubmit="event.preventDefault()">
+                                                <div class="mb-3">
+                                                    <label class="me-sm-2">Amount</label>
+                                                    <div class="input-group mb-3">
+                                                    </label> <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+                                                    <div class="form-group"> <label for="cardNumber">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="me-sm-2">Wallet Address</label>
+                                                    <div class="input-group mb-3">
+                                                    </label> <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+                                                    <div class="form-group"> <label for="cardNumber">
+                                                    </div>
+                                                </div>
+                                                  </div>
+                                                    <button type="submit" name="submit"
+                                                    class="btn2 btn-success btn-block">Withdraw</button>
+                                              </form>
+                                          </div> <!-- End -->
+                                    </div>
+                                </div>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Start Footer Area -->
+        <div class="footer-area">
+          <div class="container-fluid">
+            <div class="footer-content">
+              <p>
+                © Cryptoexpress is Proudly Owned by
+                <a href="" target="_blank">BlaqCoder</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Area -->
+      </main>
+      <!-- End Main Content Area -->
+    </div>
+
+    <!-- Start Template Sidebar Area -->
+    <div class="template-sidebar-option">
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasRight"
+      >
+        <div class="offcanvas-header">
+          <a href="dashboard.html">
+            <img src="img2/logo.png" alt="main-logo" />
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3>Customization</h3>
+          <ul>
+            <li>
+              <!-- Start Dark Mode All Area -->
+              <h4>Dark/Light Mode</h4>
+              <div class="toggle-theme">
+                <i class="fas"></i>
+              </div>
+              <!-- End Dark Mode All Area -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Template Sidebar Area -->
+
+    <!-- Js Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/backtotop.js"></script>
+    <script src="js/metismenu.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/app2.js"></script>
+  </body>
+</html>

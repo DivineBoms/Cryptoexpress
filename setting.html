@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8562e9c476.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/metismenu.min.css" />
+    <link rel="stylesheet" href="css/simplebar.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+       <!-- Preloader -->
+<div id="preloader">
+  <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+</div>
+<!-- Preloader -->
+ <!-- back to top start -->
+ <div class="progress-wrap">
+  <svg
+    class="progress-circle svg-content"
+    width="100%"
+    height="100%"
+    viewBox="-1 -1 102 102"
+  >
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  </svg>
+</div>
+    <!-- all-section-area Start-->
+    <div class="all-section-area">
+      <!-- Start Header Area -->
+      <div class="header-area">
+        <div class="container-fluid">
+          <div class="header-content-wrapper">
+            <div
+              class="header-content d-flex justify-content-between align-items-center"
+            >
+              <div class="header-left-content d-flex">
+                <div class="responsive-burger-menu d-block d-lg-none">
+                  <span class="top-bar"></span>
+                  <span class="middle-bar"></span>
+                  <span class="bottom-bar"></span>
+                </div>
+
+                <div class="main-logo">
+                  <a href="dashboard.html">
+                    <img src="img2/logo.png" alt="main-logo" />
+                  </a>
+                </div>
+
+                <form class="search-bar d-flex">
+                  <i class="bx bx-search-alt"></i>
+
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </form>
+
+                <div class="option-item for-mobile-devices d-block d-lg-none">
+                  <i class="search-btn fa-solid fa-magnifying-glass"></i>
+                  <i class="close-btn fa-solid fa-x"></i>
+
+                  <div class="search-overlay search-popup">
+                    <div class="search-box">
+                      <form class="search-form">
+                        <input
+                          class="search-input"
+                          name="search"
+                          placeholder="Search"
+                          type="text"
+                        />
+
+                        <button class="search-button" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-right-content d-flex align-items-center">
+                <div class="header-right-option">
+                  <a
+                    href="#"
+                    class="dropdown-item fullscreen-btn"
+                    id="fullscreen-button"
+                  >
+                    <i class="bx bx-fullscreen"></i>
+                  </a>
+                </div>
+
+                <div
+                  class="header-right-option notification-option messenger-option dropdown"
+                >
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="messages-btn">
+                      <i class="bx bx-message-square-dots"></i>
+                      <span class="badge">3</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block">5 New Message</span>
+                      <span class="mark-all-btn d-inline-block">Clear All</span>
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-1.png" alt="user-1" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Alex Dew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-2.png" alt="user-2" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Anne Kew</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-3.png" alt="user-3" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Huhon Smith</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-4.png" alt="user-4" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Yelax Spin</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a href="#" class="dropdown-item d-flex">
+                        <div class="icon">
+                          <img src="img2/user-5.png" alt="user-5" />
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Steven</span>
+                          <p class="m-0">
+                            Lorem ipsum dolor sit, amet consectetur
+                          </p>
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="#" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option notification-option dropdown">
+                  <div
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="notification-btn">
+                      <i class="bx bxs-bell-ring"></i>
+                      <span class="badge">4</span>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex justify-content-between align-items-center bg-linear"
+                    >
+                      <span class="title d-inline-block"
+                        >6 New Notifications</span
+                      >
+                      <span class="mark-all-btn d-inline-block"
+                        >Mark all as read</span
+                      >
+                    </div>
+
+                    <div class="dropdown-wrap" data-simplebar>
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Just sent a new message!</span>
+                          <p class="sub-text mb-0">2 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">New customer registered</span>
+                          <p class="sub-text mb-0">5 sec ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Apps are ready for update</span>
+                          <p class="sub-text mb-0">3 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-regular fa-hourglass"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block">Your item is shipped</span>
+                          <p class="sub-text mb-0">7 min ago</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="inbox.html"
+                        class="dropdown-item d-flex align-items-center"
+                      >
+                        <div class="icon">
+                          <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+
+                        <div class="content">
+                          <span class="d-block"
+                            >Steven commented on your post</span
+                          >
+                          <p class="sub-text mb-0">1 sec ago</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <a href="inbox.html" class="dropdown-item">View All</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="header-right-option dropdown profile-nav-item pt-0 pb-0"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle avatar d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdown-4"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img2/avatar.png" alt="avatar" />
+                    <div class="d-none d-lg-block d-md-block">
+                      <h3>Max West</h3>
+                      <span>Super Admin</span>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-menu">
+                    <div
+                      class="dropdown-header d-flex flex-column align-items-center"
+                    >
+                      <div class="figure mb-3">
+                        <img
+                          src="img2/avatar.png"
+                          class="rounded-circle"
+                          alt="avatar"
+                        />
+                      </div>
+
+                      <div class="info text-center">
+                        <span class="name">Max West</span>
+                        <p class="mb-3 email">
+                          <a href="#"
+                            ><span
+                              class="__cf_email__"
+                              data-cfemail="0b61646365786662676c6a4b636e67676425686466"
+                              >[email&#160;protected]</span
+                            ></a
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="dropdown-wrap">
+                      <ul class="profile-nav p-0 pt-3">
+                        <li class="nav-item">
+                          <a href="profile.html" class="nav-link">
+                            <i class='bx bxs-user-circle'></i>
+                            <span>Profile</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="inbox.html" class="nav-link">
+                            <i class='bx bx-mail-send'></i>
+                            <span>My Inbox</span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="edit.html" class="nav-link">
+                            <i class='bx bx-edit'></i>
+                            <span>Edit Profile</span>
+                          </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="activity.html" class="nav-link">
+                                <i class='bx bx-history'></i>
+                              <span> Activity</span>
+                            </a>
+                          </li>
+                        <li class="nav-item">
+                          <a href="setting.html" class="nav-link">
+                            <i class='bx bxs-cog' ></i>
+                            <span>Settings</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="dropdown-footer">
+                      <ul class="profile-nav">
+                        <li class="nav-item">
+                          <a href="login.html" class="nav-link">
+                            <i class="bx bx-log-in-circle"></i>
+                            <span>Logout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-right-option template-option">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    <img src="img2/setting.svg" alt="setting" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Area -->
+
+      <!-- Start Sidebar Menu Area -->
+      <nav class="sidebar-menu">
+        <ul
+          class="list-group flex-column d-inline-block first-menu"
+          data-simplebar
+        >
+          <li class="list-group-item main-grid active">
+            <a
+              href="dashboard.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Trade"
+            >
+              <i class="bx bxs-dashboard"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a
+              href="exchange.html"
+              class="icon"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Exchange"
+            >
+              <i class="bx bx-transfer"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="deposit.html" class="icon"   data-toggle="tooltip"
+            data-placement="right"
+            title="Deposit">
+              <i class="bx bx-money"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="withdraw.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Withdraw">
+              <i class="bx bxs-wallet"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item main-grid">
+            <a href="setting.html" class="icon" data-toggle="tooltip"
+            data-placement="right"
+            title="Setting">
+              <i class="bx bxs-cog"></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- End Sidebar Menu Area -->
+      <!-- Start Main Content Area -->
+      <main class="main-content-wrap">
+        <section class="ticker">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+               <!-- ticker -->
+<div class="cryptohopper-web-widget" data-id="2" data-text_color="#ffffff" data-background_color="#1d2330" data-theme="custom" data-realtime="on"></div>
+<!-- ticker -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="card h-unset">
+                    <div class="card-body pb-0">
+                      <div class="row">
+                        <div class="col-xxl-12">
+                          <div class="card no-shadow h-unset">
+                            <div class="card-header">
+                              <h4 class="card-title">Preperences</h4>
+                            </div>
+                            <div class="card-body">
+                              <form action="#">
+                                <div class="row g-3">
+                                  <div class="col-sm-6">
+                                    <label class="form-label"
+                                      >Language Default</label
+                                    >
+                                    <select class="form-select">
+                                      <option value="">English</option>
+                                      <option value="">Bangla</option>
+                                      <option value="">Hindi</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <label class="form-label"
+                                      >Currency Default</label
+                                    >
+                                    <select class="form-select">
+                                      <option value="">USD</option>
+                                      <option value="">CAD</option>
+                                      <option value="">Euro</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <label class="form-label">Time Zone</label>
+                                    <select class="form-select">
+                                      <option>
+                                        (GMT-12:00) International Date Line West
+                                      </option>
+                                      <option>
+                                        (GMT-11:00) Midway Island, Samoa
+                                      </option>
+                                      <option>(GMT-10:00) Hawaii</option>
+                                      <option>(GMT-09:00) Alaska</option>
+                                      <option>
+                                        (GMT-08:00) Pacific Time (US & Canada)
+                                      </option>
+                                      <option>
+                                        (GMT-08:00) Tijuana, Baja California
+                                      </option>
+                                      <option>GMT-07:00) Arizona</option>
+                                      <option>
+                                        (GMT-07:00) Chihuahua, La Paz, Mazatlan
+                                      </option>
+                                      <option>
+                                        (GMT-07:00) Mountain Time (US & Canada)
+                                      </option>
+                                      <option>GMT-06:00) Central America</option>
+                                      <option>
+                                        (GMT-06:00) Central Time (US & Canada)
+                                      </option>
+                                      <option>
+                                        (GMT-06:00) Guadalajara, Mexico City,
+                                        Monterrey
+                                      </option>
+                                      <option>GMT-06:00) Saskatchewan</option>
+                                      <option>
+                                        GMT-05:00) Bogota, Lima, Quito, Rio Branco
+                                      </option>
+                                      <option>
+                                        (GMT-05:00) Eastern Time (US & Canada)
+                                      </option>
+                                      <option>(GMT-05:00) Indiana (East)</option>
+                                      <option>
+                                        (GMT-04:00) Atlantic Time (Canada)
+                                      </option>
+                                      <option>GMT-04:00) Caracas, La Paz</option>
+                                      <option>GMT-04:00) Manaus</option>
+                                      <option>(GMT-04:00) Santiago</option>
+                                      <option>">(GMT-03:30) Newfoundland</option>
+                                      <option>(GMT-03:00) Brasilia</option>
+                                      <option>
+                                        GMT-03:00) Buenos Aires, Georgetown
+                                      </option>
+                                      <option>(GMT-03:00) Greenland</option>
+                                      <option>(GMT-03:00) Montevideo</option>
+                                      <option>(GMT-02:00) Mid-Atlantic</option>
+                                      <option>GMT-01:00) Cape Verde Is.</option>
+                                      <option>(GMT-01:00) Azores</option>
+                                      <option>
+                                        MT+00:00) Casablanca, Monrovia, Reykjavik
+                                      </option>
+                                      <option>
+                                        GMT+00:00) Greenwich Mean Time : Dublin,
+                                        Edinburgh, Lisbon, London
+                                      </option>
+                                      <option>
+                                        GMT+01:00) Amsterdam, Berlin, Bern, Rome,
+                                        Stockholm, Vienna
+                                      </option>
+                                      <option>
+                                        GMT+01:00) Belgrade, Bratislava, Budapest,
+                                        Ljubljana, Prague
+                                      </option>
+                                      <option>
+                                        GMT+01:00) Brussels, Copenhagen, Madrid,
+                                        Paris
+                                      </option>
+                                      <option>
+                                        GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb
+                                      </option>
+                                      <option>
+                                        GMT+01:00) West Central Africa
+                                      </option>
+                                      <option>GMT+02:00) Amman</option>
+                                      <option>
+                                        GMT+02:00) Athens, Bucharest, Istanbul
+                                      </option>
+                                      <option>GMT+02:00) Beirut</option>
+                                      <option>GMT+02:00) Cairo</option>
+                                      <option>MT+02:00) Harare, Pretoria</option>
+                                      <option>
+                                        GMT+02:00) Helsinki, Kyiv, Riga, Sofia,
+                                        Tallinn, Vilnius
+                                      </option>
+                                      <option>GMT+02:00) Jerusalem</option>
+                                      <option>GMT+02:00) Minsk</option>
+                                      <option>GMT+02:00) Windhoek</option>
+                                      <option>
+                                        MT+03:00) Kuwait, Riyadh, Baghdad
+                                      </option>
+                                      <option>
+                                        GMT+03:00) Moscow, St. Petersburg, Volgograd
+                                      </option>
+                                      <option>MT+03:00) Nairobi</option>
+                                      <option>MT+03:00) Tbilisi</option>
+                                      <option>>(GMT+03:30) Tehran</option>
+                                      <option>MT+04:00) Abu Dhabi, Muscat</option>
+                                      <option>GMT+04:00) Baku</option>
+                                      <option>GMT+04:00) Yerevan</option>
+                                      <option>(GMT+04:30) Kabul</option>
+                                      <option>GMT+05:00) Yekaterinburg</option>
+                                      <option>
+                                        MT+05:00) Islamabad, Karachi, Tashkent
+                                      </option>
+                                      <option>
+                                        (GMT+05:30) Sri Jayawardenapura
+                                      </option>
+                                      <option>
+                                        (GMT+05:30) Chennai, Kolkata, Mumbai, New
+                                        Delhi
+                                      </option>
+                                      <option>>(GMT+05:45) Kathmandu</option>
+                                      <option>
+                                        GMT+06:00) Almaty, Novosibirsk
+                                      </option>
+                                      <option>MT+06:00) Astana, Dhaka</option>
+                                      <option>(GMT+06:30) Yangon (Rangoon)</option>
+                                      <option>
+                                        MT+07:00) Bangkok, Hanoi, Jakarta
+                                      </option>
+                                      <option>GMT+07:00) Krasnoyarsk</option>
+                                      <option>
+                                        MT+08:00) Beijing, Chongqing, Hong Kong,
+                                        Urumqi
+                                      </option>
+                                      <option>
+                                        MT+08:00) Kuala Lumpur, Singapore
+                                      </option>
+                                      <option>
+                                        MT+08:00) Irkutsk, Ulaan Bataar
+                                      </option>
+                                      <option>MT+08:00) Perth</option>
+                                      <option>MT+08:00) Taipei</option>
+                                      <option>
+                                        MT+09:00) Osaka, Sapporo, Tokyo
+                                      </option>
+                                      <option>MT+09:00) Seoul</option>
+                                      <option>GMT+09:00) Yakutsk</option>
+                                      <option>(GMT+09:30) Adelaide</option>
+                                      <option>(GMT+09:30) Darwin</option>
+                                      <option>GMT+10:00) Brisbane</option>
+                                      <option>
+                                        (GMT+10:00) Canberra, Melbourne, Sydney
+                                      </option>
+                                      <option>(GMT+10:00) Hobart</option>
+                                      <option>GMT+10:00) Guam, Port Moresby</option>
+                                      <option>(GMT+10:00) Vladivostok</option>
+                                      <option>
+                                        (GMT+11:00) Magadan, Solomon Is., New
+                                        Caledonia
+                                      </option>
+                                      <option>
+                                        (GMT+12:00) Auckland, Wellington
+                                      </option>
+                                      <option>
+                                        GMT+12:00) Fiji, Kamchatka, Marshall Is.
+                                      </option>
+                                      <option>GMT+13:00) Nuku'alofa</option>
+                                    </select>
+                                  </div>
+    
+                                  <div class="col-12">
+                                    <button
+                                      class="btn btn-primary pl-5 pr-5 waves-effect"
+                                    >
+                                      Save
+                                    </button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-12">
+                          <div class="card no-shadow h-unset">
+                            <div class="card-header">
+                              <h4 class="card-title">Notifications</h4>
+                            </div>
+                            <div class="card-body">
+                              <form action="#">
+                                <div class="col-lg-6">
+                                   
+                                      
+                                  <div class="form-check form-switch">
+                                 
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider"></span> 
+                                    </label>
+                                    <label class="form-check-label" for="s2"
+                                    >I receive merchant order</label
+                                  >
+                                  </div>
+                                  <div class="form-check form-switch ">
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                      <span class="slider"></span> 
+                                  </label>
+                                    <label class="form-check-label" for="s2"
+                                      >I receive merchant order</label
+                                    >
+                                  </div>
+                                  <div class="form-check form-switch">
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                      <span class="slider"></span> 
+                                  </label>
+                                    <label class="form-check-label" for="s3"
+                                      >There are recommendation for my
+                                      sccount</label
+                                    >
+                                  </div>
+                                </div>
+    
+                                <div class="col-12">
+                                  <button class="btn btn-primary waves-effect">
+                                    Save
+                                  </button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="content-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="card h-unset">
+                    <div class="card-body pb-0">
+                      <div class="row">
+                        <div class="col-xxl-12">
+                          <div class="card no-shadow h-unset">
+                            <div class="card-header">
+                              <h4 class="card-title">2-step verification</h4>
+                            </div>
+                            <div class="card-body">
+                              <div class="verify-content">
+                                <div class="d-flex align-items-center">
+                                  <span
+                                    class="me-3 icon-circle  text-white"
+                                    ><i class='bx bx-mobile-alt'></i></span>
+                                  <div class="primary-number">
+                                    <p class="mb-0">
+                                      <strong>+xxx xxxxxxxx60</strong>
+                                    </p>
+                                    <small
+                                      >Keep your primary phone number
+                                      up-to-date</small
+                                    >
+                                    <br />
+                                    <span class="text-success">Required</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-outline-primary">
+                                  Manage
+                                </button>
+                              </div>
+                              <hr class="dropdown-divider my-4" />
+                              <div class="verify-content">
+                                <div class="d-flex align-items-center">
+                                  <span
+                                    class="me-3 icon-circle  text-white"
+                                    ><i class='bx bx-envelope' ></i></span>
+                                  <div class="primary-number">
+                                    <p class="mb-0">
+                                      <strong>hello@example.com</strong>
+                                    </p>
+                                    <small
+                                      >Keep your primary email up-to-date</small
+                                    >
+                                    <br />
+                                    <span class="text-success">Required</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-outline-primary">
+                                  Manage
+                                </button>
+                              </div>
+                              <hr class="dropdown-divider my-4" />
+                              <div class="verify-content">
+                                <div class="d-flex align-items-center">
+                                  <span
+                                    class="me-3 icon-circle  text-white"
+                                    ><i class='bx bx-lock'></i></span>
+                                  <div class="primary-number">
+                                    <p class="mb-0">
+                                      <strong>*************</strong>
+                                    </p>
+                                    <small>You can change your password</small>
+                                    <br />
+                                    <span class="text-success">Required</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-outline-primary">
+                                  Manage
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xxl-12">
+                          <div class="card no-shadow h-unset">
+                            <div class="card-header">
+                              <h4 class="card-title">Identity verification</h4>
+                            </div>
+                            <div class="card-body">
+                              <div class="verify-content">
+                                <div class="d-flex align-items-center">
+                                  <span
+                                    class="me-3 icon-circle  text-white"
+                                    ><i class='bx bxs-id-card'></i></span>
+                                  <div class="primary-number">
+                                    <p class="mb-0">xxx xxxxx xxx40</p>
+                                    <small>Social Security Number</small>
+                                    <br />
+                                    <span class="text-success">Verified</span>
+                                  </div>
+                                </div>
+                                <button
+                                  class="btn btn-outline-primary"
+                                  data-bs-toggle="modal"
+                                  data-bs-target="#idCardModal"
+                                >
+                                  Manage
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xxl-12">
+                          <div class="card no-shadow h-unset">
+                            <div class="card-header">
+                              <h4 class="card-title">
+                                Use 2-step verification to secure your transactions
+                              </h4>
+                            </div>
+                            <div class="card-body">
+                              <form action="#">
+                                <div class="col-12">
+                                  <div class="form-check form-switch mb-3">
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                      <span class="slider"></span> 
+                                  </label>
+                                    <label class="form-check-label" for="s1"
+                                      >Any amount of cryptocurrency
+                                      <b class="text-success">Most secure</b></label
+                                    >
+                                  </div>
+                                  <div class="form-check form-switch mb-3">
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                      <span class="slider"></span> 
+                                  </label>
+                                    <label class="form-check-label" for="s2"
+                                      >Over 1.2000 BTC per day</label
+                                    >
+                                  </div>
+    
+                                  <div class="form-check form-switch mb-3">
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                      <span class="slider"></span> 
+                                  </label>
+                                    <label class="form-check-label" for="s3"
+                                      >Never
+                                      <b class="text-danger">Least secure</b></label
+                                    >
+                                  </div>
+                                </div>
+    
+                                <div class="col-12">
+                                  <button class="btn btn-primary">Save</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="idCardModal"
+          tabindex="-1"
+          aria-labelledby="idCardModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="idCardModalLabel">
+                  Upload your ID card
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form action="verify-step-3.html" class="identity-upload">
+                  <div class="identity-content">
+                    <span>(Driving License or Government ID card)</span>
+    
+                    <p>
+                      Uploading your ID helps as ensure the safety and security of
+                      your founds
+                    </p>
+                  </div>
+    
+                  <div class="form-group">
+                    <label class="me-sm-2">Upload Front ID </label>
+                    <span class="float-right">Maximum file size is 2mb</span>
+                    <div class="file-upload-wrapper" data-text="front.jpg">
+                      <input
+                        name="file-upload-field"
+                        type="file"
+                        class="file-upload-field"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="me-sm-2">Upload Back ID </label>
+                    <span class="float-right">Maximum file size is 2mb</span>
+                    <div class="file-upload-wrapper" data-text="back.jpg">
+                      <input
+                        name="file-upload-field"
+                        type="file"
+                        class="file-upload-field"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#successIdCardModal"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="successIdCardModal"
+          tabindex="-1"
+          aria-labelledby="successIdCardModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="successIdCardModalLabel">Success</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="auth-form">
+                  <div class="card-body">
+                    <form action="verify-step-2.html" class="identity-upload">
+                      <div class="identity-content">
+                        <span class="icon"><i class="icofont-email"></i></span>
+                        <h5>Identity Verified</h5>
+                        <p>
+                          Congrats! your identity has been successfully verified and
+                          your investment limit has been increased.
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Start Footer Area -->
+        <div class="footer-area">
+          <div class="container-fluid">
+            <div class="footer-content">
+              <p>
+                © Cryptoexpress is Proudly Owned by
+                <a href="" target="_blank">BlaqCoder</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Area -->
+      </main>
+      <!-- End Main Content Area -->
+    </div>
+
+    <!-- Start Template Sidebar Area -->
+    <div class="template-sidebar-option">
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasRight"
+      >
+        <div class="offcanvas-header">
+          <a href="dashboard.html">
+            <img src="img2/logo.png" alt="main-logo" />
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3>Customization</h3>
+          <ul>
+            <li>
+              <!-- Start Dark Mode All Area -->
+              <h4>Dark/Light Mode</h4>
+              <div class="toggle-theme">
+                <i class="fas"></i>
+              </div>
+              <!-- End Dark Mode All Area -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Template Sidebar Area -->
+
+    <!-- Js Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/backtotop.js"></script>
+    <script src="js/metismenu.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/app2.js"></script>
+  </body>
+</html>
